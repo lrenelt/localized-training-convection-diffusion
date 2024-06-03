@@ -1,0 +1,21 @@
+# -*- sh -*-
+
+BUILDDIR=~/build_gcc_10
+
+CMAKE_BUILD_TYPE=Debug
+CXX=g++-10
+CXXFLAGS="-g3 -std=c++2a"
+CXXFLAGS="$CXXFLAGS -Wall"
+
+CC=gcc-10
+
+CMAKE_FLAGS="
+  -Wno-dev
+  -DCMAKE_BUILD_TYPE='$CMAKE_BUILD_TYPE'
+  -DCMAKE_CXX_COMPILER='$CXX'
+  -DCMAKE_CXX_FLAGS='$CXXFLAGS'
+  -DCMAKE_C_COMPILER='$CC'
+"
+
+MAKE_FLAGS="-- -j4 -l4"
+USE_CMAKE=yes
