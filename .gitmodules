@@ -1,0 +1,24 @@
+[submodule "dune-common"]
+	path = dune-common
+	url = ssh://git@gitlab.dune-project.org:22022/core/dune-common.git
+[submodule "dune-istl"]
+	path = dune-istl
+	url = ssh://git@gitlab.dune-project.org:22022/core/dune-istl.git
+[submodule "dune-geometry"]
+	path = dune-geometry
+	url = ssh://git@gitlab.dune-project.org:22022/core/dune-geometry.git
+[submodule "dune-localfunctions"]
+	path = dune-localfunctions
+	url = ssh://git@gitlab.dune-project.org:22022/core/dune-localfunctions.git
+[submodule "dune-typetree"]
+	path = dune-typetree
+	url = ssh://git@gitlab.dune-project.org:22022/staging/dune-typetree.git
+[submodule "dune-functions"]
+	path = dune-functions
+	url = ssh://git@gitlab.dune-project.org:22022/staging/dune-functions.git
+[submodule "dune-pdelab"]
+	path = dune-pdelab
+	url = ssh://git@gitlab.dune-project.org:22022/pdelab/dune-pdelab.git
+[submodule "dune-grid"]
+	path = dune-grid
+	url = ssh://git@gitlab.dune-project.org:22022/core/dune-grid.git
