@@ -3,7 +3,7 @@
 	url = ssh://git@gitlab.dune-project.org:22022/core/dune-common.git
 [submodule "dune-istl"]
 	path = dune-istl
-	url = ssh://git@gitlab.dune-project.org:22022/core/dune-istl.git
+	url = ssh://git@gitlab.dune-project.org/lukas.renelt/dune-istl.git
 [submodule "dune-geometry"]
 	path = dune-geometry
 	url = ssh://git@gitlab.dune-project.org:22022/core/dune-geometry.git
