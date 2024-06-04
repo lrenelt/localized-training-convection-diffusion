@@ -1,0 +1,14 @@
+################################
+# Dune module information file #
+################################
+
+# Name of the module
+Module: dune-ultraweak
+Version: 1.0
+Maintainer: lukas.renelt@uni-muenster.de
+# Required build dependencies
+Depends: dune-pdelab dune-subgrid
+# Optional build dependencies
+#Suggests: dune-parametric
+# Required python packages
+Python-Requires: pymor

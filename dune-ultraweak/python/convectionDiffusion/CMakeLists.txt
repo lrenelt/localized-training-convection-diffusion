@@ -1,0 +1,5 @@
+dune_symlink_to_source_files(FILES computeLocalExampleSolutions.py)
+dune_symlink_to_source_files(FILES configs.py)
+dune_symlink_to_source_files(FILES rangefinder.py)
+dune_symlink_to_source_files(FILES runAllRangefinderTests.py)
+dune_symlink_to_source_files(FILES transferOperator.py)

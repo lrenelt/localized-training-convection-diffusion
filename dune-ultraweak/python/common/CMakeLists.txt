@@ -1,0 +1,2 @@
+dune_symlink_to_source_files(FILES dune_istl_bindings.py)
+dune_symlink_to_source_files(FILES operator.py)
