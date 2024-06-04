@@ -22,3 +22,9 @@
 [submodule "dune-grid"]
 	path = dune-grid
 	url = ssh://git@gitlab.dune-project.org:22022/core/dune-grid.git
+[submodule "dune-subgrid"]
+	path = dune-subgrid
+	url = ssh://git@gitlab.dune-project.org:22022/extensions/dune-subgrid.git
+[submodule "dune-uggrid"]
+	path = dune-uggrid
+	url = ssh://git@gitlab.dune-project.org:22022/staging/dune-uggrid.git
