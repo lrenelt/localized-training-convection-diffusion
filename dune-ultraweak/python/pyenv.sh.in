@@ -2,3 +2,4 @@
 #! /bin/bash
 export PYTHONPATH=$PYTHONPATH:${CMAKE_BINARY_DIR}/src
 export PYTHONPATH=$PYTHONPATH:${CMAKE_BINARY_DIR}/python
+pip install pymor
